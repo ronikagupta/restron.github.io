@@ -1,0 +1,697 @@
+
+    
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Restaurantly</title>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+
+    <!--Font link-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+
+
+     <!--CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+
+  </head>
+ 
+
+
+  <body>
+
+
+
+
+         <!--Top Bar-->
+         <div id="topbar" class="d-flex align-items-center fixed-top text-light mt-2">
+            <div class="container d-flex justify-content-between">
+             <div class="contact-info">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16" style="color: #eccc68;">
+                  <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/></svg> +1 5589 55488 55
+              <span class="d-none d-lg-inline-block">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16" style="color: #eccc68;">
+                  <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/></svg> Mon-Sat: 11:00 AM - 23:00 PM</span>
+              </div>
+        <div class="languages">
+        <ul class="list-inline">
+          <li class="text-warning list-inline-item">En</li>
+          <li class="list-inline-item">/</li>
+          <li class="list-inline-item">De</li>
+        </ul>
+        </div>
+        </div>
+         </div>
+         <!--Top Bar Ends-->
+
+
+
+         <!--Header Starts-->
+         <header id="header" class="fixed-top">
+            <nav class="navbar navbar-expand-lg navbar-light  nav-menu d-none d-lg-block">
+                <div class="container-fluid">
+                    <a style="color:#fff" class="navbar-brand mx-5 fs-3" href="#"> RESTAURANTLY </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse  d-flex justify-content-center ms-5" id="navbarNav">
+                        <ul class="navbar-nav fs-5">
+                            <li class="nav-item mx-auto  ">
+                                <a style="color:#cda45e" class="nav-link active ms-4 home" aria-current="page" href="#menu">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color:#fff" class="nav-link active ms-3" aria-current="page" href="/">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color:#fff" class="nav-link active ms-3" aria-current="page" href="/">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color:#fff" class="nav-link active ms-3" aria-current="page" href="/">Specials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color:#fff" class="nav-link active ms-3" aria-current="page" href="/">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color:#fff" class="nav-link active ms-3" aria-current="page" href="/">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color:#fff" class="nav-link active ms-3" aria-current="page" href="/">Chef</a>
+                            </li>
+                            <li class="nav-item">
+                                <a style="color:#fff" class="nav-link active ms-3" aria-current="page" href="/">Contact</a>
+                            </li>
+                            <a href="#book-a-table" class="butn ms-4">Book a table</a>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+         <!--Header Ends-->        
+
+
+
+         <!--Hero Starts-->
+         <section id="hero" class="d-flex align-items-center">
+             <div class="container position-relative text-center text-lg-start font-weight-bold">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1>Welcome to <span>Restaurantly</span></h1>
+          <h2>Delivering great food for more than 18 years!</h2>
+
+
+          <div class="btns">
+            <a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
+            <a href="#book-a-table" class="btn-book animated fadeInUp scrollto">Book a Table</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center pt-5">
+            <svg xmlns="http://www.w3.org/2000/svg" width="75" height="75" fill="currentColor" class="bi bi-play-circle-fill" viewBox="0 0 16 16" style="color: #cda45e;">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM6.79 5.093A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/></svg>
+        </div>
+
+
+      </div>
+    </div>
+         </section>
+         <!--Hero Ends-->
+
+
+         
+<!--About Start-->
+<section id="about" class="about">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col-lg-6 order-1 order-lg-2 aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+          <div class="about-img">
+            <img src="about (1).jpg" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" style="color: cornsilk;">
+          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+          <p class="font-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+            magna aliqua.
+          </p>
+          <ul>
+            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+            <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+          </ul>
+          <p>
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum
+          </p>
+        </div>
+      </div>
+
+    </div>
+    
+  </section>
+  <section id="why-us" class="why-us">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Why Us</h2>
+        <p>Why Choose Our Restaurant</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4">
+          <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+            <span>01</span>
+            <h4>Lorem Ipsum</h4>
+            <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+            <span>02</span>
+            <h4>Repellat Nihil</h4>
+            <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mt-4 mt-lg-0">
+          <div class="box aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+            <span>03</span>
+            <h4> Ad ad velit qui</h4>
+            <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+   
+  <section id="menu" class="menu section-bg">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Menu</h2>
+        <p>Check Our Tasty Menu</p>
+      </div>
+
+      <div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="menu-flters">
+            <li data-filter="*" class="filter-active" style="color: darkgoldenrod;">All</li>
+            <li data-filter=".filter-starters">Starters</li>
+            <li data-filter=".filter-salads">Salads</li>
+            <li data-filter=".filter-specialty">Specialty</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row menu-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 600px;">
+
+        <div class="col-lg-6 menu-item filter-starters" style="position: absolute; left: 0px; top: 0px;">
+          <img src="img1.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Lobster Bisque</a> <span>........................................................................</span><span>$5.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty" style="position: absolute; left: 660px; top: 0px;">
+          <img src="img2.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Bread Barrel</a><span>.........................................................................</span><span>$6.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-starters" style="position: absolute; left: 0px; top: 120px;">
+          <img src="img3.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Crab Cake</a><span>..............................................................................</span><span>$7.95</span>
+          </div>
+          <div class="menu-ingredients">
+            A delicate crab cake served on a toasted roll with lettuce and tartar sauce
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-salads" style="position: absolute; left: 660px; top: 120px;">
+          <img src="img4.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Caesar Selections</a><span>..........................................................................</span><span>$8.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty" style="position: absolute; left: 0px; top: 240px;">
+          <img src="img5.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Tuscan Grilled</a><span>............................................................................</span><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Grilled chicken with provolone, artichoke hearts, and roasted red pesto
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-starters" style="position: absolute; left: 660px; top: 240px;">
+          <img src="img6.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Mozzarella Stick</a><span>...........................................................................</span><span>$4.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Lorem, deren, trataro, filede, nerada
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-salads" style="position: absolute; left: 0px; top: 360px;">
+          <img src="img7.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Greek Salad</a><span>......................................................................................</span><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Fresh spinach, crisp romaine, tomatoes, and Greek olives
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-salads" style="position: absolute; left: 660px; top: 360px;">
+          <img src="img8.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Spinach Salad</a><span>...........................................................................</span><span>$9.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Fresh spinach with mushrooms, hard boiled egg, and warm bacon vinaigrette
+          </div>
+        </div>
+
+        <div class="col-lg-6 menu-item filter-specialty" style="position: absolute; left: 0px; top: 480px;">
+          <img src="img9.jpg" class="menu-img" alt="">
+          <div class="menu-content">
+            <a href="#">Lobster Roll</a><span>.........................................................................</span><span>$12.95</span>
+          </div>
+          <div class="menu-ingredients">
+            Plump lobster meat, mayo and crisp lettuce on a toasted bulky roll
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="book-a-table" class="book-a-table">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Reservation</h2>
+        <p>Book a Table</p>
+      </div>
+
+      <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+            <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+            <div class="validate"></div>
+          </div>
+          <div class="col-lg-4 col-md-6 form-group mt-3">
+            <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+            <div class="validate"></div>
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
+          <div class="validate"></div>
+        </div>
+        <div class="mb-3">
+          <div class="loading">Loading</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+        </div>
+        <div class="text-center"><button type="submit">Book a Table</button></div>
+      </form>
+
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery">
+
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+      <div class="section-title">
+        <h2>Gallery</h2>
+        <p>Some photos from Our Restaurant</p>
+      </div>
+    </div>
+
+    <div class="container-fluid aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row no-gutters">
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-1.jpg" class="venobox vbox-item" data-gall="gallery-item">
+              <img src="b1.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-2.jpg" class="venobox vbox-item" data-gall="gallery-item">
+              <img src="b2.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-3.jpg" class="venobox vbox-item" data-gall="gallery-item">
+              <img src="b3.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-4.jpg" class="venobox vbox-item" data-gall="gallery-item">
+              <img src="b4.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-5.jpg" class="venobox vbox-item" data-gall="gallery-item">
+              <img src="b5.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-6.jpg" class="venobox vbox-item" data-gall="gallery-item">
+              <img src="b6.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-7.jpg" class="venobox vbox-item" data-gall="gallery-item">
+              <img src="b7.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-lg-3 col-md-4">
+          <div class="gallery-item">
+            <a href="assets/img/gallery/gallery-8.jpg" class="venobox vbox-item" data-gall="gallery-item">
+              <img src="b8.jpg" alt="" class="img-fluid">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="chefs" class="chefs">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Chefs</h2>
+        <p>Our Proffesional Chefs</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="member aos-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/chefs/chefs-1.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Walter White</h4>
+                <span>Master Chef</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="member aos-init aos-animate" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/chefs/chefs-2.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Sarah Jhonson</h4>
+                <span>Patissier</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <div class="member aos-init aos-animate" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/img/chefs/chefs-3.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>William Anderson</h4>
+                <span>Cook</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div>
+    </div>
+
+    <div data-aos="fade-up" class="aos-init aos-animate">
+      <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+
+    <div class="container aos-init aos-animate" data-aos="fade-up">
+
+      <div class="row mt-5">
+
+        <div class="col-lg-4">
+          <div class="info">
+            <div class="address">
+              <i class="icofont-google-map"></i>
+              <h4>Location:</h4>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+
+            <div class="open-hours">
+              <i class="icofont-clock-time icofont-rotate-90"></i>
+              <h4>Open Hours:</h4>
+              <p>
+                Monday-Saturday:<br>
+                11:00 AM - 2300 PM
+              </p>
+            </div>
+
+            <div class="email">
+              <i class="icofont-envelope"></i>
+              <h4>Email:</h4>
+              <p>info@example.com</p>
+            </div>
+
+            <div class="phone">
+              <i class="icofont-phone"></i>
+              <h4>Call:</h4>
+              <p>+1 5589 55488 55s</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-8 mt-5 mt-lg-0">
+
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group mt-3">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
+              <div class="validate"></div>
+            </div>
+            <div class="form-group mt-3">
+              <textarea class="form-control" name="message" rows="8" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  
+ 
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Restaurantly</h3>
+              <p>
+                A108 Adam Street <br>
+                NY 535022, USA<br><br>
+                <strong>Phone:</strong> +1 5589 55488 55<br>
+                <strong>Email:</strong> info@example.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    
+  </footer>
+       
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $('.butn').mouseenter(function(){
+            $('.butn').css('background-color','#cda45e')
+        });
+        $('.home').mouseenter(function(){
+            $('.home').css('color','#cda45e')
+        });
+        $('.butn').mouseleave(function(){
+            $('.butn').css('background-color','')
+        });
+    </script>
+
+
+  </body>
+
+
+</html>
+
+
+
+
